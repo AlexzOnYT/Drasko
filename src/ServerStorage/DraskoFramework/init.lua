@@ -110,7 +110,6 @@ function DraskoFramework.new()
 	self.EventsFolder.Parent = game.ReplicatedStorage:WaitForChild("Drasko")
 	self.EventsFolder.Name = "Remotes"
 	
-	self.UI = script.DraskoUI.Drasko
 	--// Start Modules
 	DraskoFramework:ExecuteModules(self)
 	
